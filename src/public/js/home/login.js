@@ -22,7 +22,7 @@ function login() {
     .then((res) => res.json())
     .then((res) => {
       if (res.success) {
-        location.href = "http://127.0.0.1:5501/";
+        location.href = "https://gosuuk.github.io/jeju/";
       } else {
         alert(res.msg);
       }
